@@ -6,8 +6,9 @@ return {
 		opts = {},
 	},
 	{ "metalelf0/jellybeans-nvim"},
-	{ 'glacambre/firenvim', build = ":call firenvim#install(0)" },
+	-- { 'glacambre/firenvim', build = ":call firenvim#install(0)" },
 	{"rktjmp/lush.nvim"},
+	{ 'wakatime/vim-wakatime', lazy = false },
 	"tpope/vim-surround",  -- Surround plugin
 	"tpope/vim-commentary",  -- Commentary plugin
 	-- "github/copilot.vim",

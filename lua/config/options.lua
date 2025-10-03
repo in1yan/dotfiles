@@ -1,7 +1,7 @@
 -- Basic Vim Settings
 local opt = vim.opt
 
-vim.cmd.colorscheme("jellybeans-nvim")
+vim.cmd.colorscheme("rose-pine")
 vim.cmd[[set clipboard=unnamed]]
 opt.number = true
 opt.relativenumber = true
